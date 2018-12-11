@@ -28,7 +28,7 @@ for k in range(0, number_end, 1):
 			print('No file name')
 		else:
 			os.rename(name_files, name_new_files)
-			print('File {0} successfully renamed in {1}')
+			print('File {0} successfully renamed in {1}'.format(name_files, name_new_files))
 		j+=1
 print(j)
 input('Я вроде всё. Для завершения, нажмем Enter')
